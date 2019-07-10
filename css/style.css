@@ -17,7 +17,7 @@ html{
 
 /* Colores */
 .barraNav{
-    color:#606060;
+    background-color:#606060;
 }
 
 /* Enlaces */
@@ -39,3 +39,23 @@ a{
 .barraNav{
     height: 70px;
 }
+
+/* Flexibilidad */
+.barraNav__logo{
+    display: flex;
+
+}
+.barraNav__logo__logotipo{
+    flex-grow: 1;
+    align-items: unset
+}
+
+.barraNav__logo__isotipo{
+    flex-grow: 1;
+    height: 3em;
+}
+
+/* ***************************
+    CSS General (desk)
+*************************** */
+

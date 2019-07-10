@@ -53,7 +53,15 @@ and (orientation: landscape)
 and (min-width:1366px)
 {
 
-
+ .barraNav__nav__galeria a::before{
+    content: "Galería"
+}
+.barraNav__nav__galeria a::before{
+    content: "Galería"
+}
+.barraNav__nav__galeria a::before{
+    content: "Galería"
+}
 
 }
 
