@@ -14,6 +14,23 @@ and (min-device-width:320px) and (max-device-width: 766px)
 and (orientation: portrait)
 {
 
+    .barraNav__nav{
+        content: "";
+        background: url(../assets/img/svg/nav.svg) no-repeat;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+    }
+.section__imagen::before{
+    content: "";
+    background: url(../assets/img/smartphone/gabriel-garcia-marengo-DWTNVZ631rs-unsplash.png) no-repeat;
+    width: 100vw;
+    height: 10em;
+    margin: 0.2em auto;
+    display: inline-block; 
+    background-size: contain; 
+    
+}
 
 }
 
@@ -50,17 +67,71 @@ and (orientation: landscape)
 /* ESCRITORIO */
 /* -------------------- */
 @media only screen
-and (min-width:1366px)
+and (min-width:766px)
 {
+    .barraNav{
+        justify-content: space-between;
+        padding: 0.5rem 4rem;
+        align-items: center;
+    }
 
- .barraNav__nav__galeria a::before{
-    content: "Galería"
+    .barraNav__logo{
+        flex-grow: 0;
+        display: flex;
+        flex-direction: column;
+        position: 
+    }
+
+.section__imagen::before{
+        content: "";
+        background: url(../assets/img/laptop/gabriel-garcia-marengo-DWTNVZ631rs-unsplash@2x.png) no-repeat;
+        width: 100vw;
+        height: 250px;
+        margin: 0.2em auto;
+        display: inline-block; 
+        background-size: contain; 
+        
 }
-.barraNav__nav__galeria a::before{
-    content: "Galería"
+
+.barraNav__logo{
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
 }
-.barraNav__nav__galeria a::before{
-    content: "Galería"
+
+.barraNav__logo__isotipo{
+    margin-top: 130px;
+}
+.barraNav__logo__logotipo::before{
+    content: "Marca";
+    font-size: 3.5rem;
+    display: block;
+    transform: rotate(90deg) translateX(50px);
+}
+
+.barraNav__nav{
+    display: flex;
+    flex-grow: 0.5;
+    justify-content: space-between;
+}
+
+ .barraNav__nav__galeria::before{
+    content: "Galería";
+    font-size: 1.rem;
+        display: block;
+        color: white;
+}
+.barraNav__nav__Trabajos::before{
+    content: "Trabajos";
+    font-size: 1rem;
+        display: block;
+        color: white;
+}
+.barraNav__nav__contactar::before{
+    content: "Contactar";
+    font-size: 1rem;
+        display: block;
+        color: white;
 }
 
 }

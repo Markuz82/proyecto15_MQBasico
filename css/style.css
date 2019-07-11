@@ -34,25 +34,21 @@ a{
 .barraNav{
     padding: 0.5rem 1rem;
 }
-
+.section__texto{
+    padding: 0.5rem 1rem; 
+}
 /* Tamaños */
 .barraNav{
     height: 70px;
 }
 
 /* Flexibilidad */
-.barraNav__logo{
+.barraNav{
     display: flex;
-
 }
-.barraNav__logo__logotipo{
-    flex-grow: 1;
-    
-}
-
-.barraNav__logo__isotipo{
-    flex-grow: 1;
-    height: 3em;
+.barraNav__logo, nav{
+    flex-grow: 0.5;
+    text-align: right;
 }
 
 /* ***************************
